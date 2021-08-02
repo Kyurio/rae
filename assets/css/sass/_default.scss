@@ -1,0 +1,71 @@
+
+
+body {
+
+    background-color: $backgrounColor !important;
+    min-height: 100vh !important;
+    background-attachment: fixed;
+    font-family: $font-family;
+}
+
+main {
+
+    min-height: 100vh !important;
+
+}
+
+a {
+
+    text-decoration: none;
+    // color: #fff !important;
+
+    :hover {
+        // color: #fff !important;
+        text-decoration: none;
+        // background-color: $navbar;
+    }
+
+}
+
+input {
+
+    background-color: $backgrounColorImput !important;
+
+}
+
+[type="file"]::-webkit-file-upload-button {
+
+    background: $info;
+    color: white;
+
+    :hover {
+
+        background: $info;
+        color: white;
+
+    }
+
+}
+
+
+select {
+
+    background-color: $backgrounColorImput !important;
+
+}
+
+textarea {
+
+    background-color: $backgrounColorImput !important;
+
+}
+
+tr{
+    background-color: $backgrounColorCard !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: $backgrounColorCard !important;
+    background-color: $backgrounColorCard !important;
+}
+

@@ -1,0 +1,91 @@
+.card {
+
+    background-color: $backgrounColorCard !important;
+
+
+}
+
+.success {
+
+    background-color: $success !important;
+
+}
+
+.info {
+
+    background-color: $info !important;
+
+}
+
+
+
+
+// estilo a tabs
+.tabs-navs {
+
+    border-color: inherit;
+
+}
+
+
+.list-group {
+
+    background-color: $backgrounColorCard !important;
+
+}
+
+.list-group-item {
+
+    background-color: $backgrounColorCard !important;
+
+}
+
+// barrita para el titulo
+.slim-pagetitle {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #343a40;
+    padding-left: 10px;
+    border-left: 4px solid #4662D4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: .5px;
+}
+
+// modal
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: red !important;
+}
+
+.modal-backdrop.show {
+    opacity: .5;
+    position: absolute !important;
+}
+
+// efecto hover a los botones add y delete
+
+.delete{
+    
+    background-color: $info !important;
+    :hover {
+        background-color: $danger !important;
+    }
+}
+
+.add {
+
+    background-color: $info !important;
+    :hover {
+        background-color: $success !important;
+
+    }
+}

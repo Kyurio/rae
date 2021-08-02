@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #F4F8FB !important;
+  min-height: 100vh !important;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  min-height: 100vh !important;
+}
+
+a {
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: none;
+}
+
+input {
+  background-color: #F4F8FB !important;
+}
+
+[type=file]::-webkit-file-upload-button {
+  background: #04A9F5;
+  color: white;
+}
+[type=file]::-webkit-file-upload-button :hover {
+  background: #04A9F5;
+  color: white;
+}
+
+select {
+  background-color: #F4F8FB !important;
+}
+
+textarea {
+  background-color: #F4F8FB !important;
+}
+
+tr {
+  background-color: #ffff !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-color: #ffff !important;
+  background-color: #ffff !important;
+}
+
+.navbar {
+  background-color: #3F4D66 !important;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  text-decoration: none;
+  background-color: #3F4D66 !important;
+}
+
+.navbar-custom {
+  padding: 1.5rem;
+}
+.navbar-custom a {
+  transition: 0.3s all ease;
+  color: #04A9F5;
+}
+.navbar-custom a:hover, .navbar-custom a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.sidebar {
+  background-color: #3F4D66 !important;
+}
+.sidebar a:hover {
+  text-decoration: none;
+  background-color: #3F4D66 !important;
+}
+
+.nav_custom {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.slim-navbar {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  color: #656d75;
+  height: 46px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-right-width: 0;
+}
+
+.s5 {
+  --animate-duration: 0.5s;
+}
+
+.s4 {
+  --animate-duration: 0.5s;
+}
+
+.developer {
+  color: gray !important;
+  font-size: 10px;
+}
+
+#contenedor_carga {
+  background-color: rgba(16, 21, 43, 0.9);
+  height: 100%;
+  padding: 100%;
+  position: fixed;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#carga {
+  border: 10px solid #ccc;
+  border-top: 10px #cc0606;
+  border-top-style: groove;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 15% 25% 0;
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation: girar 1.5s linear infinite;
+  animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transition: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.card {
+  background-color: #ffff !important;
+}
+
+.success {
+  background-color: #48c774 !important;
+}
+
+.info {
+  background-color: #04A9F5 !important;
+}
+
+.tabs-navs {
+  border-color: inherit;
+}
+
+.list-group {
+  background-color: #ffff !important;
+}
+
+.list-group-item {
+  background-color: #ffff !important;
+}
+
+.slim-pagetitle {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #343a40;
+  padding-left: 10px;
+  border-left: 4px solid #4662D4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: red !important;
+}
+
+.modal-backdrop.show {
+  opacity: 0.5;
+  position: absolute !important;
+}
+
+.delete {
+  background-color: #04A9F5 !important;
+}
+.delete :hover {
+  background-color: #ff0000 !important;
+}
+
+.add {
+  background-color: #04A9F5 !important;
+}
+.add :hover {
+  background-color: #48c774 !important;
+}
